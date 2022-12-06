@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and Footer */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+.header {
+  margin: 20px auto;
+  width: 1165px;
+  height: 80px;
+  font-family: "Montserrat", sans-serif;
+  /* border: 1px solid black; */
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 250px;
+  height: 80px;
+}
+#logo img {
+  width: 250px;
+  height: 80px;
+}
+#navbar ul li {
+  display: inline;
+  margin-right: 40px;
+}
+#navbar ul li :hover {
+  color: #b40606;
+  transition: 0.5s;
+}
+#navbar ul li a {
+  color: black;
+  font-size: 18px;
+}
+#book-now-btn button {
+  width: 160px;
+  height: 40px;
+  border-radius: 62px;
+  background: #000;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+#book-now-btn button:hover {
+  background: #dbc769;
+  border: none;
+  color: white;
+  transition: 0.7s;
+}
+/* header */
+
+.footer {
+  margin: 20px auto;
+  width: 1165px;
+  height: 212px;
+  font-family: "Montserrat", sans-serif;
+  /* border: 1px solid black; */
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#social-site {
+  margin-top: 0px;
+  font-size: 40px;
+  /* border: 2px solid black; */
+}
+#social-site i {
+  margin-top: 10px;
+}
+#site-link {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-us {
+  width: 310px;
+  height: 210px;
+  color: #494040;
+  /* border: 2px solid black; */
+}
+.contact-us p {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.contact-us span {
+  font-size: 18px;
+}
+.contact-us i {
+  margin: 10px 10px 10px 0px;
+  font-size: 30px;
+  width: 40px;
+}
+.quick-links {
+  width: 130px;
+  height: 210px;
+  /* border: 2px solid black; */
+}
+.quick-links p {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.quick-links ul {
+  list-style-type: none;
+}
+.quick-links li {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #494040;
+}
+.quick-links li a {
+  color: black;
+}
+.quick-links li :hover {
+  color: #41048e;
+  font-weight: bold;
+  transition: 0.2 ease-in-out;
+}
+.fa-facebook:hover {
+  color: #3b5998;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.fa-instagram-square:hover {
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  color: #8a3ab9;
+}
+
+.fa-viber:hover {
+  color: #665cac;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.fa-map-marker-alt:hover {
+  color: #dbc769;
+  transition: 0.2s ease-in-out;
+}
+.fa-envelope:hover {
+  color: #dbc769;
+  transition: 0.2s ease-in-out;
+}
+.fa-phone-alt:hover {
+  color: #dbc769;
+  transition: 0.2s ease-in-out;
+}
+/*footer  */
+/* Header & Footer */
+
+.bg-img {
+  background-image: url(../img/room.jpg);
+  margin: 20px auto 40px;
+  width: 1170px;
+  height: 440px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#heading1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 40px;
+  color: #453f3f;
+}
+#line1 {
+  margin: 0px auto 80px auto;
+  background-color: #dbc769;
+  border: none;
+  width: 15%;
+  height: 1.5px;
+  border: none;
+}
+.room {
+  position: relative;
+}
+.room img {
+  display: block;
+  width: 770px;
+  height: 460px;
+  object-fit: cover;
+  margin: 40px auto 15px auto;
+}
+.room h3 {
+  margin-left: 370px;
+  font-size: 28px;
+  font-weight: 550;
+  font-family: "Montserrat";
+}
+.small-line {
+  width: 4%;
+  margin-left: 370px;
+  border-bottom: 2px solid #dbc769;
+  margin-bottom: 35px;
+}
+.room h4 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.room-amenities {
+  width: 970px;
+  height: 435px;
+  margin: 0px auto 100px auto;
+  border: 2px solid #dbc769;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 45px;
+}
+.room-amenities span {
+  font-size: 16px;
+  font-family: "Montserrat";
+  vertical-align: middle;
+}
+.book-btn {
+  position: absolute;
+  top: 97.5%;
+  left: 45.1%;
+}
+.book-btn button {
+  width: 150px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.book-btn button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.3s ease-in-out;
+}

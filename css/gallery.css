@@ -1,0 +1,25 @@
+.bg-img {
+  background-image: url("../img/service5.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.row {
+  margin: 50px auto 50px auto;
+  width: 1170px;
+  height: 285px;
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  width: 370px;
+  height: 285px;
+}
+.col img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.col img:hover {
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}

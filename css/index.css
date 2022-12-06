@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and Footer */
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#navbar .current {
+  color: #b40606;
+}
+button {
+  cursor: pointer;
+}
+.header {
+  margin: 20px auto;
+  width: 1165px;
+  height: 80px;
+  font-family: "Montserrat", sans-serif;
+  /* border: 1px solid black; */
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 250px;
+  height: 80px;
+}
+#logo img {
+  width: 250px;
+  height: 80px;
+}
+#navbar ul li {
+  display: inline;
+  margin-right: 40px;
+}
+#navbar ul li :hover {
+  color: #b40606;
+  transition: 0.5s;
+}
+#navbar ul li a {
+  color: black;
+  font-size: 18px;
+}
+#book-now-btn button {
+  width: 160px;
+  height: 40px;
+  border-radius: 62px;
+  background: #000;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+#book-now-btn button:hover {
+  background: #dbc769;
+  border: none;
+  color: white;
+  transition: 0.7s;
+}
+/* header */
+
+.footer {
+  margin: 20px auto;
+  width: 1165px;
+  height: 212px;
+  font-family: "Montserrat", sans-serif;
+  /* border: 1px solid black; */
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#social-site {
+  margin-top: 0px;
+  font-size: 40px;
+  /* border: 2px solid black; */
+}
+#social-site i {
+  margin-top: 10px;
+}
+#site-link {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-us {
+  width: 310px;
+  height: 210px;
+  color: #494040;
+  /* border: 2px solid black; */
+}
+.contact-us p {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.contact-us span {
+  font-size: 18px;
+}
+.contact-us i {
+  margin: 10px 10px 10px 0px;
+  font-size: 30px;
+  width: 40px;
+}
+.quick-links {
+  width: 130px;
+  height: 210px;
+  /* border: 2px solid black; */
+}
+.quick-links p {
+  font-size: 22px;
+  text-decoration: underline;
+}
+.quick-links ul {
+  list-style-type: none;
+}
+.quick-links li {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #494040;
+}
+.quick-links li a {
+  color: black;
+}
+.quick-links li :hover {
+  color: #41048e;
+  font-weight: bold;
+  transition: 0.2 ease-in-out;
+}
+.fa-facebook:hover {
+  color: #3b5998;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.fa-instagram-square:hover {
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  color: #8a3ab9;
+}
+
+.fa-viber:hover {
+  color: #665cac;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.fa-map-marker-alt:hover {
+  color: #dbc769;
+  transition: 0.2s ease-in-out;
+}
+.fa-envelope:hover {
+  color: #dbc769;
+  transition: 0.2s ease-in-out;
+}
+.fa-phone-alt:hover {
+  color: #dbc769;
+  transition: 0.2s ease-in-out;
+}
+/*footer  */
+
+/* Header & Footer */
+.bg {
+  background-image: url("../img/bg.jpg");
+  width: 100%;
+  height: 90vh;
+  background-size: 100% 170%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Bakcground img */
+
+/* Services */
+
+#heading1 {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 40px;
+  color: #453f3f;
+}
+#line1 {
+  margin: 0px auto 40px auto;
+  background-color: #dbc769;
+  border: none;
+  width: 15%;
+  height: 1.5px;
+  border: none;
+}
+
+#service1 {
+  margin: 70px auto 35px auto;
+  width: 1030px;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+
+#service1-img {
+  background-image: url("../img/service1.jpg");
+  width: 400px;
+  height: 500px;
+  background-size: 100% 100%;
+}
+#yoga-txt {
+  padding: 52px 40px;
+  width: 680px;
+  position: absolute;
+  top: -1px;
+  right: 20px;
+  background-color: white;
+
+  height: 330px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.005em;
+  line-height: 188%;
+}
+#yoga-txt p {
+  width: 600px;
+  height: auto;
+}
+.yoga-btn {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+}
+.explore-more-btn button {
+  margin: 100px auto;
+  width: 150px;
+  height: 45px;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.explore-more-btn button a:hover {
+  color: white;
+}
+.explore-more-btn button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+#service2 {
+  margin: 70px auto 35px auto;
+  width: 1030px;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+#service2-img {
+  background-image: url("../img/service2.jpg");
+  width: 555px;
+  height: 300px;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#spa-txt {
+  width: 535px;
+  height: 245px;
+  padding: 40px 45px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.005em;
+  line-height: 188%;
+  position: absolute;
+}
+.spa-btn {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+}
+
+#service3 {
+  margin: 70px auto 35px auto;
+  width: 1030px;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+
+#service3-img {
+  background-image: url("../img/service3.jpg");
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+}
+#gym-txt {
+  padding: 52px 40px;
+  width: 680px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  background-color: white;
+  height: 300px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.005em;
+  line-height: 188%;
+}
+#gym-txt p {
+  width: 600px;
+  height: auto;
+}
+
+.gym-btn {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+
+.explore-more-btn-big {
+  text-align: center;
+}
+.explore-more-btn-big button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.explore-more-btn-big button a:hover {
+  color: white;
+}
+.explore-more-btn-big button:hover {
+  color: white;
+  border: none;
+  background-color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.room-field {
+  width: 1170px;
+  height: 480px;
+  margin: auto;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.horizontal-line {
+  width: 20%;
+  height: 0%;
+  border: 1px solid #dbc769;
+  background-color: #dbc769;
+}
+.vertical-line {
+  width: 0%;
+  height: 40%;
+  border: 1px solid #dbc769;
+  background-color: #dbc769;
+}
+.horizontal-line-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+  height: 0%;
+  border: 1px solid #dbc769;
+  background-color: #dbc769;
+}
+.vertical-line-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 40%;
+  border: 1px solid #dbc769;
+  background-color: #dbc769;
+}
+.room-img img {
+  width: 555px;
+  height: 455px;
+}
+.standard-room {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.deluxe-room {
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}
+.room-desc {
+  width: 555px;
+  height: 455px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2.5px;
+}
+.room-desc h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.room-desc p {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.desc-1 {
+  position: absolute;
+  right: 15px;
+  bottom: 14px;
+}
+.desc-2 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.icons {
+  align-content: space-around;
+  margin-top: 75px;
+  height: 260px;
+  padding: 10px;
+  font-size: 45px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+.icons span {
+  font-size: 16px;
+  vertical-align: middle;
+}
+.subscribe {
+  margin-top: 100px;
+  width: 100%;
+  height: 180px;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-btn button {
+  width: 140px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 580;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  margin-left: 40px;
+  background: #c4c4c4;
+}
+.email {
+  width: 30%;
+}
+.email input {
+  padding: 10px;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.sub-btn button:hover {
+  background: white;
+  transition: 0.3s ease-in-out;
+}
+.email input:hover {
+  background: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* Book NOw */
+
+.modal-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s ease-in-out;
+}
+.activate {
+  visibility: visible;
+  opacity: 1;
+}
+.modal {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  font-family: "Montserrat", sans-serif;
+  /* border: 5px solid black; */
+  background: #dbc769;
+  color: black;
+}
+.modal h1 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+input[type="text"],
+[type="email"],
+[type="tel"],
+[type="date"],
+[type="number"],
+select {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 5px;
+}
+.modal button {
+  width: 100px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.modal button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+.close {
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.show-hide {
+  border: 1px solid black;
+  width: 100px;
+  background: #000;
+  color: white;
+}
