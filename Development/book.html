@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>Font size with jQuery</title>
+  </head>
+
+  <body>
+    <a href="#" id="largerText">A+</a>
+    |
+    <a href="#" id="smallerText">A-</a>
+    <p>E tu, "Lorem ipsum" ?!</p>
+
+    <script>
+      $("#largerText").click(function () {
+        $("body, input, select, textarea, button").css(
+          "font-size",
+          parseInt($("body").css("fontSize")) * 1.1 + "px"
+        );
+      });
+
+      $("#smallerText").click(function () {
+        $("body, input, select, textarea, button").css(
+          "font-size",
+          parseInt($("body").css("fontSize")) * 0.9 + "px"
+        );
+      });
+    </script>
+  </body>
+</html>
